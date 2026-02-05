@@ -78,7 +78,7 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-primary" />
                   <div>
                     <h3 className="font-semibold">Phone & WhatsApp</h3>
-                    <p className="text-muted-foreground">+91 9767765725</p>
+                    <p className="text-muted-foreground">+91 9579745072</p>
                     <p className="text-sm text-muted-foreground">Available on WhatsApp for quick responses</p>
                   </div>
                 </div>
