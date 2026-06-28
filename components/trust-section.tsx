@@ -1,8 +1,9 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import { Mail, Rocket, ShieldCheck, Sparkles, Users } from "lucide-react"
+
+const whatsappLink = "https://wa.me/919270765725?text=hi"
 
 const proofPoints = [
   {
@@ -21,7 +22,7 @@ const proofPoints = [
     icon: Mail,
     title: "Contact Details",
     description:
-      "Contact@influnzo.com and +91 92707 65725 are listed for direct brand enquiries and WhatsApp conversations.",
+      "Contact@influnzo.com and +919270765725 are listed for direct brand enquiries and WhatsApp conversations.",
   },
   {
     icon: ShieldCheck,
@@ -62,6 +63,11 @@ export function TrustSection() {
           ))}
         </div>
 
+        <div className="mt-8 text-center">
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 text-primary-foreground font-semibold hover:bg-primary/90 transition-colors">
+            Chat on WhatsApp
+          </a>
+        </div>
       </div>
     </section>
   )
