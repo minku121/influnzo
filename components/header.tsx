@@ -8,6 +8,7 @@ import Image from "next/image"
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const whatsappLink = "https://wa.me/919270765725?text=hi"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,7 +36,9 @@ export function Header() {
           </div>
           <div className="flex items-center gap-2">
             <Phone className="w-4 h-4" />
-            <span>+91 9767765725</span>
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="hover:underline">
+              +919270765725
+            </a>
           </div>
         </div>
       </div>

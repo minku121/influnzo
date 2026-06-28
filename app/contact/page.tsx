@@ -11,6 +11,7 @@ import { useGsapAnimations } from "@/hooks/use-gsap-animations"
 import UnifiedForm from "@/components/unified-form"
 
 export default function ContactPage() {
+  const whatsappLink = "https://wa.me/919270765725?text=hi"
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -78,7 +79,9 @@ export default function ContactPage() {
                   <Phone className="w-6 h-6 text-primary" />
                   <div>
                     <h3 className="font-semibold">Phone & WhatsApp</h3>
-                    <p className="text-muted-foreground">+91 9579745072</p>
+                    <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                      +919270765725
+                    </a>
                     <p className="text-sm text-muted-foreground">Available on WhatsApp for quick responses</p>
                   </div>
                 </div>
@@ -102,15 +105,15 @@ export default function ContactPage() {
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                   <div>
-                    <h4 className="font-semibold">55,000+ Influencers</h4>
-                    <p className="text-sm text-muted-foreground">Access to a vast network of verified influencers</p>
+                    <h4 className="font-semibold">Verified Creator Network</h4>
+                    <p className="text-sm text-muted-foreground">Access to creators selected for relevance and audience fit</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
                   <div>
-                    <h4 className="font-semibold">100+ Successful Brands</h4>
-                    <p className="text-sm text-muted-foreground">Trusted by leading companies across industries</p>
+                    <h4 className="font-semibold">Trusted by Brands</h4>
+                    <p className="text-sm text-muted-foreground">Proven across education, software and consumer campaigns</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

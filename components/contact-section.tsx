@@ -11,6 +11,7 @@ import { Mail, Phone, MapPin, Send, MessageCircle, Instagram } from "lucide-reac
 import UnifiedForm from "./unified-form"
 
 export function ContactSection() {
+  const whatsappLink = "https://wa.me/919270765725?text=hi"
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -118,7 +119,9 @@ export function ContactSection() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Phone</div>
-                    <div className="text-muted-foreground">+91 9767765725</div>
+                    <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                      +919270765725
+                    </a>
                   </div>
                 </div>
 

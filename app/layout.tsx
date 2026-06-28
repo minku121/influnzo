@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | Influnzo",
   },
   description:
-    "Influnzo specializes in influencer marketing for the coding and tech niche. Partner with 55,000+ creators to grow brand awareness and conversions.",
+    "Influnzo specializes in influencer marketing for the coding and tech niche. We connect brands with verified creators and measurable campaigns.",
   keywords: [
     "influencer marketing",
     "tech influencers",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     siteName: "Influnzo",
     title: "Influnzo – Influencer Marketing for Coding & Tech Industry",
     description:
-      "Influencer marketing agency for the coding and tech niche. Access 55,000+ creators for measurable results.",
+      "Influencer marketing agency for the coding and tech niche. Work with verified creators and measurable results.",
     images: [
       {
         url: "/professional-influencer-portrait.png",
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Influnzo – Influencer Marketing for Coding & Tech Industry",
     description:
-      "Influencer marketing agency for the coding and tech niche. Access 55,000+ creators for measurable results.",
+      "Influencer marketing agency for the coding and tech niche. Work with verified creators and measurable results.",
     images: [
       {
         url: "/professional-influencer-portrait.png",

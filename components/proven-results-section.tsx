@@ -7,23 +7,23 @@ const stats = [
   {
     icon: "📈",
     title: "100+ Brands Onboarded",
-    description: "Across EdTech, SaaS, Finance & Lifestyle",
+    description: "Across EdTech, SaaS, finance and lifestyle campaigns",
     color: "from-blue-50 to-indigo-50",
     borderColor: "border-blue-200",
     iconColor: "text-blue-600"
   },
   {
     icon: "🤝",
-    title: "55,000+ Influencers Collaborated",
-    description: "From micro-influencers to top creators worldwide",
+    title: "Growing Network of Verified Creators",
+    description: "Creators selected for relevance, quality and audience fit",
     color: "from-green-50 to-emerald-50",
     borderColor: "border-green-200",
     iconColor: "text-green-600"
   },
   {
     icon: "🚀",
-    title: "25M+ Leads Generated",
-    description: "Helping brands achieve scalable growth & ROI",
+    title: "Performance-Driven Campaigns",
+    description: "Focused on measurable outcomes, not vanity metrics",
     color: "from-purple-50 to-violet-50",
     borderColor: "border-purple-200",
     iconColor: "text-purple-600"

@@ -7,39 +7,33 @@ export function WhyChooseUsSection() {
   const reasons = [
     {
       icon: Award,
-      title: "Proven Track Record",
-      description: "Over 5 years of experience with 200+ successful brand partnerships and campaigns.",
-      stat: "100+ Brands",
+      title: "Experienced Team",
+      description: "We bring practical campaign experience across creator strategy, content and reporting.",
     },
     {
       icon: Users,
-      title: "Authentic Audience",
-      description: "Genuine engagement with a highly active community that trusts our recommendations.",
-      stat: "500K+ Followers",
+      title: "Verified Creators",
+      description: "We focus on credible creators who align with your audience and brand values.",
     },
     {
       icon: Zap,
-      title: "Creative Excellence",
-      description: "Award-winning content that stands out and drives meaningful conversations.",
-      stat: "95% Engagement",
+      title: "Performance-Driven Campaigns",
+      description: "Every campaign is planned around clear objectives, execution and measurable learning.",
     },
     {
       icon: Target,
-      title: "Strategic Approach",
-      description: "Data-driven strategies tailored to your specific goals and target audience.",
-      stat: "3x ROI Average",
+      title: "Multi-Platform Marketing",
+      description: "We coordinate messaging across YouTube, Instagram, LinkedIn, Telegram and WhatsApp.",
     },
     {
       icon: Heart,
-      title: "Authentic Storytelling",
-      description: "We believe in genuine connections and authentic brand narratives that resonate.",
-      stat: "1M+ Reach",
+      title: "Transparent Communication",
+      description: "You get clear updates, simple reporting and direct collaboration throughout the campaign.",
     },
     {
       icon: CheckCircle,
-      title: "Reliable Partnership",
-      description: "Consistent delivery, transparent communication, and long-term relationship focus.",
-      stat: "98% Retention",
+      title: "Long-Term Brand Partnerships",
+      description: "We build repeatable systems that support sustained growth, not one-off activations.",
     },
   ]
 
@@ -68,10 +62,6 @@ export function WhyChooseUsSection() {
               <CardContent className="p-8 text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                   <reason.icon className="w-8 h-8 text-primary group-hover:text-primary-foreground transition-colors" />
-                </div>
-
-                <div className="text-3xl font-bold text-primary mb-2 group-hover:scale-105 transition-transform">
-                  {reason.stat}
                 </div>
 
                 <h3 className="text-xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors">

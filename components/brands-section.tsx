@@ -36,7 +36,7 @@ export function BrandsSection() {
   return (
     <section className="py-16 bg-muted/40">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Trusted by 100+ Leading Brands</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Trusted by Leading Brands</h2>
         
         <Marquee direction="left" />
         <Marquee direction="right" />

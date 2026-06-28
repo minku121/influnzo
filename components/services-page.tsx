@@ -27,9 +27,9 @@ const services = [
     bgColor: "from-red-50 to-pink-50",
     borderColor: "border-red-200",
     description: "Turn viewers into loyal subscribers & customers with authentic video storytelling.",
-    stats: "150M+ Views | 7M+ Engagements",
+    stats: "8M+ Views | 650K+ Engagements",
     features: ["Long-form tutorials", "Product reviews", "Brand storytelling", "Live streaming"],
-    caseStudy: "YouTube Campaign for Coding Ninjas generated 10M+ views & 50k+ student sign-ups in 3 months."
+    caseStudy: "YouTube campaigns focused on education-led storytelling and audience growth."
   },
   {
     title: "Instagram Marketing",
@@ -38,9 +38,9 @@ const services = [
     bgColor: "from-pink-50 to-rose-50",
     borderColor: "border-pink-200",
     description: "Transform your brand presence with engaging Stories, Reels & shoppable content.",
-    stats: "1B+ Content Views | 60M+ Engagements",
+    stats: "35M+ Views | 2.8M+ Engagements",
     features: ["Stories & Highlights", "Reels creation", "Shoppable posts", "IGTV content"],
-    caseStudy: "Instagram Reels for an EdTech startup drove 3x engagement vs traditional ads."
+    caseStudy: "Instagram campaigns focused on creator-led content and stronger engagement."
   },
   {
     title: "LinkedIn Marketing",
@@ -49,9 +49,9 @@ const services = [
     bgColor: "from-blue-50 to-indigo-50",
     borderColor: "border-blue-200",
     description: "Build B2B credibility and generate qualified leads through professional influence.",
-    stats: "200M+ Impressions | 4.5M+ Engagements",
+    stats: "5M+ Impressions | 320K+ Engagements",
     features: ["Professional content", "Thought leadership", "Industry insights", "B2B networking"],
-    caseStudy: "LinkedIn campaign for a SaaS company achieved 5x higher lead quality than paid ads."
+    caseStudy: "LinkedIn campaigns focused on authority building and qualified demand."
   },
   {
     title: "Telegram Marketing",
@@ -60,9 +60,9 @@ const services = [
     bgColor: "from-teal-50 to-cyan-50",
     borderColor: "border-teal-200",
     description: "Build engaged communities and drive direct conversions through personalized messaging.",
-    stats: "100M+ Views | 5M+ Leads",
+    stats: "3M+ Views | 45K+ Leads",
     features: ["Direct engagement", "Community building", "Channel management", "Lead generation"],
-    caseStudy: "Telegram community for a finance app grew to 50k+ active members in 6 months."
+    caseStudy: "Telegram campaigns focused on direct engagement and community building."
   },
   {
     title: "WhatsApp Marketing",
@@ -71,9 +71,9 @@ const services = [
     bgColor: "from-green-50 to-emerald-50",
     borderColor: "border-green-200",
     description: "Drive personalized engagement and high-converting conversations at scale.",
-    stats: "350M+ Members | 8M+ Leads",
+    stats: "1M+ Users Reached | 28K+ Leads",
     features: ["Personalized broadcast", "Group engagement", "Direct messaging", "Lead generation"],
-    caseStudy: "WhatsApp campaign for a lifestyle brand achieved 85% open rate and 40% conversion."
+    caseStudy: "WhatsApp campaigns focused on direct conversations and conversion-ready audiences."
   }
 ]
 
@@ -125,8 +125,8 @@ const differentiators = [
   },
   {
     icon: Users,
-    title: "Wide Network",
-    description: "Access to 55,000+ influencers across niches.",
+    title: "Verified Creators",
+    description: "Access to creators selected for fit, credibility and audience alignment.",
     color: "text-green-600"
   },
   {

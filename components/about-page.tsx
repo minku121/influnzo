@@ -3,6 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import { TrustSection } from "@/components/trust-section"
 import { 
   Users, 
   Target, 
@@ -20,27 +21,27 @@ import Image from "next/image"
 const stats = [
   {
     icon: Users,
-    number: "100+",
-    label: "Brands Collaborated",
-    description: "Leading EdTech & tech companies"
+    number: "Trusted",
+    label: "Brand Partnerships",
+    description: "Leading EdTech and tech companies"
   },
   {
     icon: Target,
-    number: "55,000+",
-    label: "Influencers Network",
-    description: "Across coding & tech niches"
+    number: "Verified",
+    label: "Creator Network",
+    description: "Across coding and tech niches"
   },
   {
     icon: TrendingUp,
-    number: "Millions",
-    label: "Engagements Delivered",
+    number: "Measurable",
+    label: "Campaign Outcomes",
     description: "Authentic audience connections"
   },
   {
     icon: Award,
-    number: "100%",
-    label: "Success Rate",
-    description: "Proven track record"
+    number: "Reliable",
+    label: "Execution",
+    description: "Proven delivery process"
   }
 ]
 
@@ -105,13 +106,13 @@ export function AboutPage() {
               </h2>
               <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  At Influnzo, we specialize in influencer marketing for the coding and tech niche. Our team manages a strong network of social media influencers with massive followings in programming, technology, and education, helping brands connect with highly engaged and relevant audiences.
+                  At Influnzo, we specialize in influencer marketing for the coding and tech niche. Our team works with carefully selected creators in programming, technology and education to help brands reach relevant audiences.
                 </p>
                 <p>
-                  We have successfully collaborated with 100+ leading EdTech and tech brands including Coding Ninjas, GeeksforGeeks, Newton School, Masai School, and many more. By leveraging the power of influencers trusted by millions of developers and students, we ensure campaigns that don't just get views — they build credibility, generate leads, and drive conversions.
+                  We have partnered with leading EdTech and tech brands including Coding Ninjas, GeeksforGeeks, Newton School, Masai School and others. Our focus is on campaigns that build credibility, generate qualified interest and support conversions.
                 </p>
                 <p>
-                  With 55,000+ influencers onboarded and millions of engagements delivered, Influnzo is your go-to partner for impactful influencer marketing in the coding and tech industry.
+                  Influnzo is built for brands that want thoughtful creator partnerships, transparent communication and measurable campaign execution.
                 </p>
               </div>
             </div>
@@ -130,6 +131,8 @@ export function AboutPage() {
               </div>
             </div>
           </div>
+
+          <TrustSection />
 
           {/* Stats Section */}
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
@@ -208,7 +211,7 @@ export function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">Trusted by Leading Brands</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've helped these companies achieve remarkable results through influencer marketing
+              We've helped these companies build stronger creator-led brand presence.
             </p>
           </div>
           

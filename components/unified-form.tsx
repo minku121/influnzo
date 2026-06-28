@@ -84,7 +84,7 @@ export function UnifiedForm({
 
       // WhatsApp fast-path
       if (intent === "whatsapp") {
-        const phone = "+919767765725"
+        const phone = "+919270765725"
         const text = encodeURIComponent(
           `${form.name ? form.name + " - " : ""}${userType} interested in ${service || "services"}. ${form.message || "Hi! I'd like to chat on WhatsApp."}`
         )

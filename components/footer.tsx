@@ -4,6 +4,7 @@ import { Instagram, Youtube, Linkedin, MessageCircle, Mail, Phone, MapPin } from
 import Image from "next/image"
 
 export function Footer() {
+  const whatsappLink = "https://wa.me/919270765725?text=hi"
   const socialLinks = [
     { icon: Instagram, href: "https://instagram.com/influnzo", label: "Instagram" },
   ]
@@ -42,7 +43,7 @@ export function Footer() {
              
             </div>
             <p className="text-background/80 leading-relaxed">
-              Your trusted partner in influencer marketing for the coding and tech industry. We connect brands with 55,000+ influencers to drive measurable results.
+              Your trusted partner in influencer marketing for the coding and tech industry. We connect brands with a growing network of verified creators across YouTube, Instagram, LinkedIn, Telegram and WhatsApp.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -104,29 +105,18 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <span className="text-background/80">+91 9767765725 (Also available on WhatsApp)</span>
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-primary transition-colors">
+                  +919270765725
+                </a>
               </div>
             </div>
 
-            {/* Stats */}
-            <div className="mt-6 pt-6 border-t border-background/20">
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div>
-                  <div className="text-primary font-bold">100+</div>
-                  <div className="text-background/60">Brands</div>
-                </div>
-                <div>
-                  <div className="text-primary font-bold">55K+</div>
-                  <div className="text-background/60">Influencers</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-background/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-background/60 text-sm">© 2025 Influnzo. All rights reserved.</p>
+          <p className="text-background/60 text-sm">© 2026 Influnzo. All rights reserved.</p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-background/60 hover:text-primary transition-colors">
               Privacy Policy

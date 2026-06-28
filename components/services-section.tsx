@@ -53,7 +53,7 @@ export function ServicesSection() {
       title: "YouTube Marketing",
       description: "Long-form tutorials, reviews & storytelling",
       icon: Youtube,
-      stats: "150M+ Views | 7M+ Engagements",
+      stats: "8M+ Views | 650K+ Engagements",
       color: "bg-red-50 border-red-200",
       iconColor: "text-red-500",
       platforms: [
@@ -67,7 +67,7 @@ export function ServicesSection() {
       title: "Instagram Marketing",
       description: "Stories, Reels & shoppable posts",
       icon: Instagram,
-      stats: "1000M+ Views | 60M+ Engagements",
+      stats: "35M+ Views | 2.8M+ Engagements",
       color: "bg-pink-50 border-pink-200",
       iconColor: "text-pink-500",
       platforms: [
@@ -81,7 +81,7 @@ export function ServicesSection() {
       title: "LinkedIn Marketing",
       description: "Professional influence for B2B credibility",
       icon: Linkedin,
-      stats: "200M+ Impressions | 4.5M+ Engagements",
+      stats: "5M+ Impressions | 320K+ Engagements",
       color: "bg-blue-50 border-blue-200",
       iconColor: "text-blue-500",
       platforms: [
@@ -95,7 +95,7 @@ export function ServicesSection() {
       title: "Telegram Marketing",
       description: "Direct engagement & community building",
       icon: MessageCircle,
-      stats: "100M+ Views | 5M+ Leads",
+      stats: "3M+ Views | 45K+ Leads",
       color: "bg-teal-50 border-teal-200",
       iconColor: "text-teal-500",
       platforms: [
@@ -109,7 +109,7 @@ export function ServicesSection() {
       title: "WhatsApp Marketing",
       description: "Personalized broadcast & group engagement",
       icon: MessageCircle,
-      stats: "350M+ Members | 8M+ Leads",
+      stats: "1M+ Users Reached | 28K+ Leads",
       color: "bg-green-50 border-green-200",
       iconColor: "text-green-500",
       platforms: [
